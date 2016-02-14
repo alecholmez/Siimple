@@ -51,6 +51,10 @@
 .btn-warning {color: #ffffff; background-color: #FFC107; transition: opacity 0.3s; border: 0px; }
 .btn-warning:hover { opacity: 0.8s; }
 
+/* Info button */
+.btn-info { color: #ffffff; background-color: #2bacd4; transition: opacity 0.3s; border: 0px; }
+.btn-info:hover { opacity: 0.8; }
+
 /* Outline buttons */
 .btn-outline { border: 1px solid #09a0f6; color: #09a0f6; background-color: transparent; }
 .btn-outline { transition: background-color 0.3s, color 0.3s; }
@@ -70,6 +74,11 @@
 .btn-outline-warning { border: 1px solid #FFC107; color: #FFC107; background-color: transparent; }
 .btn-outline-warning { transition: background-color 0.3s, color 0.3s; }
 .btn-outline-warning:hover { color: #ffffff; background-color: #FFC107; }
+
+/* Info Oultine Button */
+.btn-outline-info { border: 1px solid #2bacd4; color: #2bacd4; background-color: transparent; }
+.btn-outline-info { transition: background-color 0.3s, color 0.3s; }
+.btn-outline-info:hover { color: #ffffff; background-color: #2bacd4; }
 
 /* Button small size */
 .btn-small { font-size: 14px; line-height: 20px; padding-top: 4px; padding-bottom: 4px; }
@@ -175,6 +184,14 @@
 .color-purple { color: #a160ed; }
 .color-white { color: #ffffff; }
 
+/* Divider Left */
+.divider-left { border-left: 1px solid #d1e1e8; margin-top: 0px; margin-bottom: 16px; }
+.divider-left { padding: 14px; }
+
+/* Divider Right */
+.divider-right { border-left: 1px solid #d1e1e8; margin-top: 0px; margin-bottom: 16px; }
+.divider-right { padding: 14px; }
+
 /* Background */
 .bg-blue { background-color: #09a0f6; }
 .bg-green { background-color: #4cc159; }
@@ -229,6 +246,11 @@
 .table-border-column td { border-right: 1px solid #d1e1e8; }
 .table-border-column td:last-child { border-right: 0px; }
 
+/* Text Formatting */
+.text-center { text-align: center; text-decoration: none }
+.text-left { text-align: left; text-decoration: none }
+.text-right { text-align: right; text-decoration: none }
+
 /* Navbar */
 .navbar { display: block; width: 100%; min-height: 50px; }
 .navbar { line-height: 50px; }
@@ -249,14 +271,14 @@
 
 /* Body */
 body { background-color: #ffffff; color: #414c58; font-family: 'Open Sans', 'Open Sans'; }
-body { font-weight: 300; margin: 0px; padding: 0px; font-size: 16px; }
+body { font-weight: 300; margin: 0px; padding: 0px; padding-top: 20px; font-size: 16px; }
 
 /* Links */
 a { color: #09a0f6; font-weight: normal; text-decoration: none; transition: all 0.3s; }
 a:hover { text-decoration: underline; cursor: hand; color: #01579B; }
 
 /* Paragraph */
-p { line-height: 26px; margin-bottom: 16px; margin-top: 0px; display: block; }
+p { line-height: 16px; margin-bottom: 16px; margin-top: 0px; display: block; }
 
 /* Lists */
 ul, ol { line-height: 28px; margin-bottom: 16px; margin-top: 0px; }
@@ -267,9 +289,9 @@ h1, h2, h3, h4, h5, h6 { margin-top: 0px; margin-bottom: 10px; display: block; }
 h1, h2, h3, h4, h5, h6 { font-weight: 300; color: #414c58; }
 
 /* Headings */
-h1 { font-size: 40px; line-height: 55px; padding-top: 20px; }
-h2 { font-size: 35px; line-height: 50px; padding-top: 15px; }
-h3 { font-size: 30px; line-height: 45px; padding-top: 10px; }
+h1 { font-size: 40px; line-height: 55px; }
+h2 { font-size: 35px; line-height: 50px; }
+h3 { font-size: 30px; line-height: 45px; }
 h4 { font-size: 25px; line-height: 40px; }
 h5 { font-size: 20px; line-height: 35px; }
 h6 { font-size: 15px; line-height: 30px; color: #798ba0; }
